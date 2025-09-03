@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() { 
+function App() {
   return (
     <>
       <div className="inputDiv">
@@ -28,5 +28,3 @@ function App() {
     </>
   );
 }
-
-export default App;
