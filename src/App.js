@@ -12,7 +12,7 @@ function App() {
       <div>
         <ul>
           <li>
-            Take  bath
+            Take aa  bath
             <button backgroundColor="red">Pending</button>
             <button backgroundColor="blue">Edit</button>
             <button backgroundColor="yellow">Delete</button>
