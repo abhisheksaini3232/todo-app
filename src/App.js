@@ -18,7 +18,7 @@ function App() {
             <button backgroundColor="yellow">Delete</button>
           </li>
           <li>
-            Beat Vivek
+            Beat 
             <button backgroundColor="red">Pending</button>
             <button backgroundColor="blue">Edit</button>
             <button backgroundColor="yellow">Delete</button>
