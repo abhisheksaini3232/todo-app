@@ -1,31 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { getPosts } from './api';
+import { useEffect, useState } from "react";
 
 function App() {
+  useEffect(() => {
+    getPosts().then{(posts) => console.log(posts);}
+  }, [])
   return (
     <>
-      <div className="inputDiv">
-        <label htmlFor="todo">To-do</label>
-        <input type="text" id="todo" name="todo"></input>
-        <button>Submit</button>
-      </div>
-      <div>
-        <ul>
-          <li>
-            Take a bath
-            <button backgroundColor="red">Pending</button>
-            <button backgroundColor="blue">Edit</button>
-            <button backgroundColor="yellow">Delete</button>
-          </li>
-          <li>
-            Beat all
-            <button backgroundColor="red">Pending</button>
-            <button backgroundColor="blue">Edit</button>
-            <button backgroundColor="yellow">Delete</button>
-          </li>
-        </ul>
-      </div>
+
+  
     </>
-  );
+  )
 }
 export default App;
