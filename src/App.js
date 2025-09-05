@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 
 function App() {
   useEffect(() => {
-    getPosts().then{(posts) => console.log(posts);}
-  }, [])
+    getPosts().then(posts => console.log(posts);
+  }), [])
   return (
     <>
 
