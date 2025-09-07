@@ -16,7 +16,7 @@ function TitleSearch({ data }) {
         type="text"
         placeholder="Search titles"
         value={query}
-        onChange={(e) => setQuery(e.target.value)
+        onChange={(e) => setQuery(e.target.value)}
       />
 
       <ul>
