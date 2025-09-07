@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 function TitleSearch({ data }) {
   const [query, setQuery] = useState("");
 
-  // Filter titles where query is a substring (case-insensitive)
   const filteredTitles = data
     .map((item) => item.title)
     .filter((title) => title.toLowerCase().includes(query.toLowerCase()));
